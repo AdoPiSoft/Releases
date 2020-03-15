@@ -1,3 +1,15 @@
+4.0.0-beta.8
+===================
+
+* Fix device status still connected after reboot even if no running session
+  - This is only a bug in admin display, the device is not really connected to internet and the status in portal is actually disconnected.
+
+* Fix  bad gateway error caused by socket.io error
+
+* Can add device manually
+
+
+
 4.0.0-beta.7
 ===================
 
