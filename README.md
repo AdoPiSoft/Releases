@@ -1,3 +1,40 @@
+4.0.0-beta.9
+===================
+* Added plugin feature
+  - first plugin: Chat tool
+  - Go to Admin: Plugins -> Install Plugin
+
+* Auto-configure static IP and dhcp server on LAN interfaces
+  - fixes the 'optaining ip' concern on newly added external Access point
+
+* Allow changing insert coin sound
+  - Go to Admin: Web Portal -> Captive portal -> PORTAL WEBPAGE SETTINGS
+
+* Added default GPIO config
+
+* Added global error catcher, prevents system crash that results to bad gateway error
+
+* Fix bug on delete session with shared voucher
+
+* Fix error on wifi users search
+
+* Backup/restore from old version enhancements
+  - added sales inventory restore
+  - added accounts restore
+
+* Fix error on backup/restore new version data
+
+* Added way to delete wifi users
+  - Bulk delete all inactive (delete all the devices that has no sessions and are disconnected from the wifi)
+  - delete individually
+
+* Fix bug on copy pasting phone number not showing the providers
+
+* Fix bug in captive portal settings that restores the default splash colors
+
+* Added maximum port number validation in traffic shaping (Max: 65535)
+
+
 4.0.0-beta.8
 ===================
 
