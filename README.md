@@ -1,3 +1,24 @@
+4.0.0-beta.10
+===================
+* Can bulk edit vouchers
+
+* Backup/restore - process in background
+  - Fixes request timeout when processing huge data
+
+* Fix timestamp on restore
+
+* Fix ESP8266 auto-connect after system reboot
+
+* Fix extra pulses on GPIO
+
+* FIX random "Internal server error" on some device
+
+* Added Speed Test Plugin
+  - Go to Admin: Plugins -> Install Plugin. New submenu "Speed Test" will appear in Plugins menu.
+
+* Updated chat plugin, allow mute device
+  - Go to Admin: Plugins -> Install Plugin. Update the chat plugin to latest version.
+
 4.0.0-beta.9
 ===================
 * Added plugin feature
