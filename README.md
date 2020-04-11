@@ -1,3 +1,43 @@
+4.0.0
+===================
+* Migration steps from version 3:
+  - Download a full backup of v3 (this is required so that your license will retain to v4, no need revoke)
+  - Reflash the same sd card using this **[RPI image](http://wiki.adopisoft.com/doku.php?id=4.0.0-beta.1:software_image)**
+  - Message us directly through fb page if you encountered issues while upgrading your machine
+
+
+* We added option to block tethering and internet sharing
+  - Go to Network -> Interfaces, configure the "Maximum Hops Allowed" on each LAN interface. For typical setup with AP directly connected to the board or with built-in RPI wifi, just set 1
+
+
+* Support voucher for E-load
+
+* Added auto-scan feature for ESP8266/NodeMCU (no need to access its command line interface)
+  - Download ESP8266 binary here **[esp8266-firmware-v4.0.0-release](http://wiki.adopisoft.com/lib/exe/fetch.php?media=4.0.0-beta.1:esp8266-firmware-v4.0.0-release.zip)**
+  - Go to [Payment Portals -> WIRELESS PAYMENT PORTALS], check "Open (auto-accept connections)"
+  - NodeMCU will automatically scan the visible ssids and attempt to connect, it may take time if there are many wifi ssids in your area
+  - After your NodeMCU has connected, uncheck "Open (auto-accept connections)" and set your unique token and tick "Automatically apply to connected devices"
+  - CLI config is still available if you want to manually configure it
+
+
+* Support android notification for chats and low credit warning (using android app)
+  - Install chat plugin v1.3
+  - Users will be prompted to Download the Captive Portal app via chat
+
+
+* Added alert sound when user's time/credits is low
+
+* Minor enhancements on captive portal page
+
+* Minor fixes on user sessions and voucher sorting
+
+* Fixes insert coin sound upload via phone
+
+* added temperature stat
+
+* Stabilized system core
+
+
 4.0.0-beta.10
 ===================
 * Can bulk edit vouchers
