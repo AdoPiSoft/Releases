@@ -3,6 +3,8 @@
 * Migration steps from version 3:
   - Download a full backup of v3 (this is required so that your license will retain to v4, no need revoke)
   - Reflash the same sd card using this **[RPI image](http://wiki.adopisoft.com/doku.php?id=4.0.0-beta.1:software_image)**
+  - Go to admin device page, click "Check for Updates" and install version 4.0.0
+  - Restore v3 backup to latest version via "Security -> BACKUP & RESTORE DATA"
   - Message us directly through fb page if you encountered issues while upgrading your machine
 
 
