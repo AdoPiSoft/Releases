@@ -1,3 +1,21 @@
+4.0.2
+===================
+* Added Free trial
+
+* Eload voucher enhancement
+
+* Backup/restore refactor
+  - v4 backup older than v4.0.2 will not work anymore, you need to restore it in v4.0.0
+
+4.0.1
+===================
+* (Auto-continue sessions on reboot) applies to previously connected devices only and doesn't affect paused devices
+
+* FIXED bug on interface with disabled captive portal not able to connect to internet
+
+* Updated default DNS servers
+
+
 4.0.0
 ===================
 * Migration steps from version 3:
