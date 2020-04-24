@@ -1,3 +1,29 @@
+4.0.6
+===================
+
+* Added Built-in GPIO setting, enable/disable fast inserts blocker
+
+
+4.0.5
+===================
+
+* ARP Spoofing protection can be enabled/disabled on specific LAN interface
+  - You can enable it in "Services" page
+  - Advisable to be enabled only when under attack
+
+* Can customize Voucher code
+
+* Added Data usages table
+
+* Added "Total Download/Upload" column in traffic graph page
+
+* Can set different speed for time and data
+
+* Fixes inconsistent Built-in GPIO credits
+
+* Added Maximum time/data check for Pause
+
+
 4.0.2
 ===================
 * Added Free trial
