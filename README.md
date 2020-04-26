@@ -1,3 +1,14 @@
+4.0.7
+===================
+
+* Fix GPIO setting "block fast insert" can't be disabled
+
+* Fix system log reporter
+
+* Fix admin inaccessible due to caching problem
+  - Occurs after other pisowifi system with 10.0.0.1 has been accessed on same browser
+
+
 4.0.6
 ===================
 
