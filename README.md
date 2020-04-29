@@ -1,3 +1,16 @@
+4.0.8
+===================
+
+* Crucial Update: Fix voucher double credits
+
+* Sales inventory break-down of payments
+
+* New RPI GPIO config setting "Bounce Time Setting"
+  - For troubleshooting credits accuracy
+
+* FIX wireless coinslot intermittent issue - duplicating credits
+
+
 4.0.7
 ===================
 
