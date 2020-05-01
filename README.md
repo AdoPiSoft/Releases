@@ -8,6 +8,8 @@
 * FIX "Allowed host/walled garden" and "Allowed ports"
 
 * FIX voucher expiry bug
+
+* FIX captive portal inconsistent data and notification
  
 * New plugin FB Messenger
   - Install it via "Plugins" admin page
