@@ -1,3 +1,20 @@
+4.0.9
+===================
+
+* FIX wireless coinslot duplicate listeners causing duplicate credits
+
+* FIX bandwidth limiter for non-captive portal LAN interface
+
+* FIX "Allowed host/walled garden" and "Allowed ports"
+
+* FIX voucher expiry bug
+ 
+* New plugin FB Messenger
+  - Install it via "Plugins" admin page
+  - You can add Facebook's messenger url to allowed hosts to enable messaging even without session
+  - Facebook's messenger url: **[edge-mqtt-shv-01-hkt1.facebook.com](http://edge-mqtt-shv-01-hkt1.facebook.com)**, but not sure if this is common to all messenger app
+  - You can customize the plugin on what side to display it left or right, just click the "Fb Messenger" plugin submenu to access the settings
+
 4.0.8
 ===================
 
