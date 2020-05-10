@@ -1,3 +1,44 @@
+4.0.10
+===================
+
+* Note: Please create a full backup before upgrading, just in case something will go wrong and requires a re-flash.
+
+* Added Centralized server option
+  - Setup your own postgresql, mysql or mariadb database server in the cloud
+  - Credentials can be encrypted so that you can provide centralized service to other machine owners, you can give them the encrypted credentials
+  - Any machines with same centralized token and is using same db server will share common device list, sessions, vouchers, and sales inventory
+
+* Added wifi users filter 
+  - Active, Inactive, Connected, With Session, With free trial session
+
+* Built-in payment portal setting - added option to use the old version (v3) implementation.
+  - Reading types: Loop, Interrupt
+  - Select reading type: loop to use the v3 implementation.
+  
+* Wireless payment portal - can be enabled specifically for hotspot or eload only.
+
+* Added option to show voucher's activated devices
+
+* Added sales logging option for manually added session
+
+* Added option to set custom bandwidth for trial session
+  - Set 0 to use the default per user settings
+
+* Added option to set global eload topup
+
+* Added plugin NAT Fixer
+  - Go to plugin's setting to modify the script if ever your modem has different IP.
+  - You can also modify the script if the default one will not work.
+
+* Fix random disconnection to modem
+  - To apply the fix, go to Network->Interfaces and click "Change Wan Interface" without changing anything then reboot.
+
+* FIX sales inventory pagination
+
+* Delete eload sales log when purchase log is deleted
+  - Only apply if the payment is made via coinslot, doesn't apply to voucher.
+
+
 4.0.9
 ===================
 
