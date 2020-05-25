@@ -1,3 +1,34 @@
+4.0.11
+===================
+
+* Captive portal UI enhancement
+  - auto-connect after paying
+  - summarized all credits
+  
+* Add option to show summarized credits in the admin -> Wifi Devices
+
+* Added customers dashboard/wallet
+  - in the customer's dashboard they can see their payment logs, e-load purchases logs, generate vouchers from wallet, and convert vouchers to wallet
+  - customers can topup their wallet
+  - machine admin/owner can also manually update customer's wallet
+
+* Added option to limit number of users to connect
+
+* Allow blacklisting Host or IP (e.g., your modem IP)
+
+* Fix wifi users (With free session) filter
+
+* Added search in sales page
+
+* Added option to show recently used sessions
+
+* Fix Hop limit not working on some devices
+
+* Fix sales log break-downs showing old data
+
+* Allow Looping pulse reader for Orange Pi board
+
+
 4.0.10
 ===================
 
