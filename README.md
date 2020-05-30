@@ -1,3 +1,22 @@
+4.1.0
+===================
+
+* New Feature: Bridge Interface
+  - Can add multiple bridges
+  - can add interfaces(LAN or VLAN) to bridge
+  - member port/interface can't be individually edited
+
+* Allow use of wallet in buying time/data or voucher
+
+* Fix reported crash on some devices
+
+* Fix sorting on transaction payments break-down
+
+* Option to remove payment logs page in customer's dashboard
+  - See "Captive portal settings" (Disable Payment Logs)
+
+
+
 4.0.11
 ===================
 
