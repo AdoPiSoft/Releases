@@ -1,3 +1,11 @@
+4.1.1
+===================
+
+* Fix eload voucher error on unauthenticated customer
+
+* Fix vlan form - hop not populating after reboot
+
+
 4.1.0
 ===================
 
