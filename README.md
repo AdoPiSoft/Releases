@@ -1,3 +1,51 @@
+4.1.2
+===================
+* Added auto-block cloned mac service (Experimental)
+  - Go to admin->services page to enable this feature
+
+* Link sessions to customer account
+  - Fixes the issue on phones with auto-changing mac address.
+
+* Added internet downtime auto-detection
+  - All sessions will automatically pause when the internet is down, has option to resume when the internet is back
+  - Go to admin->services page to enable this feature
+
+* Auto-detect devices that has no captive-portal support (e.g. ip camera, smart tv)
+  - You can now see these devices (ip camera or smart tv) in the wifi devices list without manually adding them
+
+* Disable auto-linking of eload phone number to current logged in account
+  - Allow eload retailing using customer's wallet
+
+* Preserve custom hostnames on devices
+  - Even if the device got deleted, its custom hostname will still show when it reconnects again
+
+* Added Auto-delete Inactive Device service
+  - Go to admin->services page to enable this feature
+
+* Added range validation on traffic shaping ports
+  - Fixes the bug with the bandwidth limiter and the auto-continue session not working caused by too long ports range being set.
+  - Currently set to 500 ports per entry. Excess ports should be added on new entry.
+
+* Allow enable/disable GPIO/Serial Payment portal
+
+* Added setting "Count Not Credited" for GPIO Payment portal
+  - with this setting enabled, background service pulse listener will always run and may take additional CPU usage.
+
+* Allow customer account deletion
+
+* Support cash type filter on sales inventory
+
+* Fixed auto-continue sessions bug that requires re-opening captive portal to resume internet
+
+* Updated eload supported phone prefixes
+
+* System logs sorting changed to display newest first
+
+* Added uptime indicator
+
+* Enhancements on Arp Spoofing protection service
+
+
 4.1.1
 ===================
 
