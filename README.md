@@ -1,3 +1,50 @@
+4.1.3
+===================
+* Admin UI minor cleanup and redesign
+
+* New tool for easy/guided access point setup
+  - see Tools - Setup Accesspoint
+
+* Bug fixes for the newly added features from v4.1.2
+
+* Can bulk update mobile devices
+  - can select multiple devices and do actions like start/pause/update/delete sessions
+  - can bulk update bandwidth limit
+
+* Added sort options for mobile devices. Can sort by total session credits, status, hostname, ip address, MAC Address (Ascending or descending)
+
+* Updating bandwidth speed will not require restart anymore (except for global bandwidth)
+  - has option to apply bandwidth changes to existing sessions
+
+* Can select sales logs to delete
+
+* Can schedule disable/enable free trial
+  - See settings in Sales - Rates & Sessions - Free Trial Settings
+
+* Can set session expirations and pause limits
+  - See settings in Sales - Rates & Sessions - Session Settings
+
+* Can restart connected sub-vendo/s (NodeMCU) from admin
+
+* Added support for physical button to reset/cancel payment que on sub-vendo
+  - reflash NodeMCU with **[esp8266-firmware-v4.1.3-release.bin](https://drive.google.com/file/d/1tW6NpkB3AjF-i14vbzzqP4Ive_EbVmPj/view?usp=sharing)**
+  - use PIN D8 and 3V. PIN D8 on HIGH will trigger the reset payment que.
+
+* New available plugin "Mini Browser"
+  - To remotely access your router/modem dashboard within your remote AdoPiSoft admin
+
+* Exclude data consumptions history from backup/restore
+  - Fixes lag on backup/restore
+
+* Added support for serial coinslot in Newifi board using USB hub
+  - Updated AdoPiSoft Newifi Firmware **[adopisoft_newifi-d2-v2-squashfs-sysupgrade.bin](https://drive.google.com/file/d/1BhzKcO5bBlJ72VZ5QNaqLmDE5-bjoEJj/view?usp=sharing)**. For existing build, only flash the router using breed web. No need to reflash your usb drive.
+  - We recommend Arduino Nano as it has lower power consumption
+  - Serial Device: /dev/ttyUSB0
+  - Baud Rate: 9600
+
+
+
+
 4.1.2
 ===================
 * Added auto-block cloned mac service (Experimental)
