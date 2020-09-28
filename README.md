@@ -25,9 +25,10 @@
   - See settings in Sales - Rates & Sessions - Session Settings
 
 * Can restart connected sub-vendo/s (NodeMCU) from admin
+  - reflash NodeMCU with **[esp8266-firmware-v4.1.3-release.bin](https://drive.google.com/file/d/1rnxHSuoslow-A4jEYilPgHAfiHuKuFHB/view?usp=sharing)**
 
 * Added support for physical button to reset/cancel payment que on sub-vendo
-  - reflash NodeMCU with **[esp8266-firmware-v4.1.3-release.bin](https://drive.google.com/file/d/1tW6NpkB3AjF-i14vbzzqP4Ive_EbVmPj/view?usp=sharing)**
+  - reflash NodeMCU with **[esp8266-firmware-v4.1.3-release.bin](https://drive.google.com/file/d/1rnxHSuoslow-A4jEYilPgHAfiHuKuFHB/view?usp=sharing)**
   - use PIN D8 and 3V. PIN D8 on HIGH will trigger the reset payment que.
 
 * New available plugin "Mini Browser"
