@@ -1,3 +1,46 @@
+4.1.4
+===================
+* Updated Revoke License Process
+  - Learn more about by clicking this link: [How to Revoke License](https://www.adopisoft.com/blog/articles/revoking-license)
+
+* Backup/Restore Settings
+  - Improved backup and restore process
+
+* MAC Synchronizer (random MAC fix)
+  - MAC synchronizer depends on browser cookies. To make this work, the user must have cookie support in their browser.
+  - If cookie is not supported in their browser, device identification falls back to MAC address
+
+* Offline License Validation (on reboot)
+  - The machine will only need internet connection during activation
+  - The machine will continue to work even after reboot without internet connection
+  - When revoked, the machine will ask again for activation
+
+* Session Expiration Update
+  - Expiration of session is now applied on start of the session
+  - Can select fixed session expiration date
+  - Can set fixed values when updating session instead of adding time/data to current session
+
+* Session Settings
+  - Set `Expiration Minutes` to `blank` to disable expiration instead of setting `0`
+
+* Individual dashboard for each wifi user
+  - View all available sessions
+  - View all used and expired sessions
+  - Manually add/edit session
+
+* View users related to voucher
+
+* Link wifi device to sales inventory
+
+* Built-in wifi additional options
+  - 802.11 Hardware mode (b/g/n)
+  - Select wifi channel (1 to 13). Default is `1`.
+  - Select country code
+  - Client isolation enable/disable
+
+* E-Load feature is hidden if timezone is not set to `Asia/Manila`
+  - To enable e-load, go to `System > Schedules` and set timezone to `Asia/Manila`.
+
 4.1.3
 ===================
 * Admin UI minor cleanup and redesign
