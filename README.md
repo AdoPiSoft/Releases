@@ -1,4 +1,4 @@
-4.1.4
+4.2.0
 ===================
 * Updated Revoke License Process
   - Learn more about by clicking this link: [How to Revoke License](https://www.adopisoft.com/blog/articles/revoking-license)
