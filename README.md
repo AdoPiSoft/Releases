@@ -1,3 +1,16 @@
+
+4.3.0
+===================
+
+* Fix serious security vulnerability
+* Fix Duplicate ID instance errors
+* Fix PPPOE plugin conflict with captive portal (also need to install latest pppoe-server plugin)
+* New theme color
+* Enable traffic shaping for lite version
+* Drop support for sqlite3 database
+* Can schedule auto-restart Sub-Vendo/s
+* FIX bug causing duplicate data on backup/restore
+
 4.2.0 - 4.2.1
 ===================
 * Updated Revoke License Process
