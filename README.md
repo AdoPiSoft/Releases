@@ -1,3 +1,54 @@
+5.1.1
+===================
+* Bandwidth limiter fix and improvements
+
+5.1.0
+===================
+* Faster bootup
+* Fix restore database
+* Can reset portal themes to default
+* Expand storage on boot (for RPI only)
+* Fix scheduled free trial
+* Added support for [wired ethernet suvendo](https://www.adopisoft.com/blog/articles/wired-sub-vendo-setup)
+* Fix for mini-browser plugin
+* Added captive portal pop-up banner
+
+
+5.0.0
+===================
+Before you proceed:
+
+Make sure to backup your settings and database.
+Make sure to take note of your license key and device ID. If possible, revoke your license first and confirm the revoke token.
+
+### Note for this upate: 
+
+The machine will reboot twice and show the Repair & Upgrade screen to install the latest system dependencies. Just follow the steps and let the process finish.
+
+### What's new in this update?
+
+- Added support for DITO sim (Eload)
+- Support GCash Cash-In
+- Subscription sessions auto send bill to customers
+- Captive portal html/css editor and theme variants
+- Option to add background music
+- Option to change background image of whole portal page
+- Option to change all sounds in the portal
+- Improved captive portal old phones compatibility
+- Admin theme `Dark Mode` option
+- Remove data usages graph (temporary/buggy)
+-  Improve wifi connectivity (fix wifi connected but no internet) 
+- Change edit session to not add values by default
+-  Available sessions table in admin show available time/data instead of consumed.
+-  Add colors per host in traffic graph
+-  Move Vouchers submenu in Sales menu
+-  Fix coinslot not working in OrangePi (bug from v4.3.0)
+-  Fix global bandwidth not working
+-  Fix bug where upload always equals the download bandwidth
+-  Fix duplicate vouchers generated
+-  Pass Codes - additional security against mac-cloning
+-  Allow 1 user to connect if not activated so that builders can test the machine prior to activation
+-  Can revoke license from inside the machine dashboard
 
 4.3.0
 ===================
