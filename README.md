@@ -1,3 +1,40 @@
+5.1.2
+===================
+* Fix tv/ip cams no connection
+* Updated game ports:
+  
+  - League Of Legends
+  - Call Of Duty
+  - Rules of Survival
+
+* Bandwidth limiter enhancements
+* Bugfixes for auto-bill expirations
+* Bugfixes for auto-continue sessions
+* Bugfixes for mac/cookies synchronizer
+* Refactor passcode
+  - Passcode can be use to sync previous session records when client's mac address has changed
+  - Auto-prompt passcode to clone devices without blocking them to access the captive portal
+  - Session records from the original device will not show up on the clone device unless the correct passcode is entered
+  - NOTE: For the passcode UI to reflect in the captive portal, you may need to reset your captive-portal theme or create a new variant from the default one
+
+* Bugfixes for logged in customer account time/data sessions
+* Fixes for Error in installation wizard
+* Fixes for Eloading server DNS issues
+* Fixes for duplicating free trial sessions
+* Fixes for captive portal cache issues
+* Fixes for duplicating voucher sessions
+* Support for customer account optional phone/email for international
+* Fixes for DNS Tunneling no browse issues
+
+* Added devices activity logs
+* Added customer's sessions page in admin
+* Added DHCP leases display, with option to reserve IP
+* Added option to merge 2 devices:
+  - In the admin->Wifi Devices page, select/check 2 devices and a "Merge Devices" button will show at the top
+* Enhancements and optimizations
+* New Service settings - auto pause device session when disconnected from WiFi
+
+
 5.1.1
 ===================
 * Bandwidth limiter fix and improvements
