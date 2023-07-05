@@ -1,3 +1,73 @@
+5.1.3
+===================
+**Warning**: Major changes in the default captive portal theme. If your old theme doesn't work, you may need to click **Reset themes** in the admin -> theme -> variants.
+
+* New user interfaces
+  - Captive Portal UI Changes
+  - Admin UI Changes
+* Added translations:
+  - English
+  - Español
+  - Bahasa Indonesia
+  - Malay
+* Added mute/unmute in captive portal
+* Advance Subvendo
+   - Auto select subvendo/payment-portal
+   - Separate wifi rates per subvendo
+   - Requires subvendo credit (basic version remains FREE)
+   
+* Multi-rates profile
+* Enhanced client devices identification
+* Enhanced machine license/activation
+* Fixes for customer account sessions-syncing security loophole
+* Separate portal theme/variant per captive portal network
+* Display chosen coinslot in paying page
+* Added new permissions in admin
+* Added search settings in admin
+* Added Bootstrap Themes in admin
+* Added reset payment retries in admin
+* Added clear active sessions and used sessions in admin
+* Responsive admin UI for mobile device
+* Added PPPOE client in admin
+* Added auto-popup for unpaid auto-bill type subscription session
+* Mac binding security for subvendo (alternative for token based security)
+* Bugfixes for auto-continue sessions
+* Bugfixes for auto-pause device session when inactive
+- Passcode security enhancements
+- Sessions auto pause/resume enhancements
+- Captive portal changes
+  * (_Reset portal theme for the latest changes to take effect_)
+  * Re-implement **captive-portal domain**. Will not work if **dns tunnel protection** is **ON**
+  * **Centralize portal IP** for multi captive portal networks. Redirecting all access to one IP address. Alternative to portal domain.
+  * Interconnect all captive portal clients, allowing them to ping each other even on different network subnets. You can now access your AP on other network subnet.
+
+- Enhanced backup & restore
+  * Database restore enhancement applies to new backup generated in v5.1.3 only
+ 
+- New database restore option **Migrate database table machine_id**
+  * This is only applicable if you are migrating or restoring your database manually using the raw method or the method provided by the database itself outside of the AdoPiSoft backup/restore feature.
+
+
+**Customized Ado x64 ISO (auto install)**: https://drive.google.com/file/d/1uLUKL3sLeSj0K3ZvmIulzd-jgYgw1UHh/view?usp=share_link
+
+#### Also new firmwares for Wireless & LAN subvendo:
+
+* Wireless Subvendo (ESP8266): https://drive.google.com/drive/u/3/folders/1JdTwYlA3mIOmm8KbuK5bJLlqxiJbk7fr
+   _(Added web config, will automatically show if disconnected)_
+   _(FIXED disconnection issue after power outage)_
+   
+* LAN Subvendo (Arduino Nano): https://drive.google.com/drive/u/2/folders/1uxheUQGGOaJ2axiYu4LIWff3LSnlqTna
+   _(added support for any captive portal ip other than 10.0.0.1)_
+   _(Fixes for disconnection issues)_
+   - **2 types of firmware for arduino nano**: 
+   - (_ado-lan-subvendo-arduino_) for builds with SET pin as coin acceptor enabler/blocker
+   - (_ado-lan-subvendo-arduino-no-fast-blocking_) for builds with power cut as coin acceptor enabler/blocker
+   
+
+#### The following plugins need to be updated to the latest version:
+- Chat plugin
+- Charging Station
+
 5.1.2
 ===================
 * Fix tv/ip cams no connection
