@@ -1,3 +1,21 @@
+5.1.5
+===================
+
+* Preparation/Support for the upcoming E-cash payment plugin
+* Fixes for captive portal theme resetting itself
+* Fixes for machine static IP not working
+* Fixes for RTLink error ocurring on some machines
+* Bandwidth limiter enhancements
+* Wifi devices select all now selects all pages, bulk update will now effect on all the pages
+* Fixes captive portal with domain set inaccessible to devices with custom dns server
+
+5.1.4
+===================
+* Fix for the machines with many active users (100+) experiencing lag or delay on starting/pausing session.
+The issue was caused by machine owner's improper bandwidth setting. Global bandwidth should be set to higher value making sure that the total bandwidth of all the users will not exceed. The system automatically update all the users to share bandwidth ensuring the fair share of the bandwidth if in case the total distributed bandwidth exceeded the globally set one.
+
+* This update fixes the issue by aggregating the bandwidth sharing process and running them in background.
+
 5.1.3
 ===================
 **Warning**: Major changes in the default captive portal theme. If your old theme doesn't work, you may need to click **Reset themes** in the admin -> theme -> variants.
